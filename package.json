@@ -1,8 +1,8 @@
 {
-  "name": "signature_pad",
+  "name": "abitari_signature_pad",
   "description": "Library for drawing smooth signatures.",
-  "version": "3.0.0-beta.3",
-  "homepage": "https://github.com/szimek/signature_pad",
+  "version": "1.0.0",
+  "homepage": "https://github.com/IvanPayan/angular2-signaturepad",
   "author": {
     "name": "Szymon Nowak",
     "email": "szimek@gmail.com",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/szimek/signature_pad.git"
+    "url": "https://github.com/IvanPayan/angular2-signaturepad.git"
   },
   "files": [
     "src",
