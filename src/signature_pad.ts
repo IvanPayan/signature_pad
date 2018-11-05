@@ -272,6 +272,19 @@ export default class SignaturePad {
   }
 
   private _strokeUpdate(event: MouseEvent | Touch): void {
+    try {
+      this._buggyStrokeUpdate(event);
+    } catch(e) {
+      // Nothing to do
+    }
+  }
+
+  /**
+   * This function can throw an exception due to a bug. "Cannot read property push of undefined"
+   * @param event
+   * @private
+   */
+  private _buggyStrokeUpdate(event: MouseEvent | Touch): void {
     const x = event.clientX;
     const y = event.clientY;
 
